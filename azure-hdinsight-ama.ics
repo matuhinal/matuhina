@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID:-//AddEvent Inc//AddEvent.com v1.7//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20211107T010000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20210314T030000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210128T104003Z
+STATUS:CONFIRMED
+UID:1611830403addeventcom
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20210128T100000
+DTEND;TZID=America/Los_Angeles:20210128T110000
+SUMMARY:Azure HDInsight AMA
+DESCRIPTION:We are very excited to announce an Azure HDInsight AMA! \n\n\nThe AMA will take place on Thursday\, January 28\, 2021 from 10:00 a.m. to 11:00 a.m. PT in the Azure AMA space. \n\n\nAn AMA is a live online event similar to a “YamJam” on Yammer or an “Ask Me Anything” on Reddit. This AMA gives you the opportunity to connect with Microsoft product experts who will be on hand to answer your questions and listen to feedback.
+X-ALT-DESC;FMTTYPE=text/html:We are very excited to announce an Azure HDInsight AMA! <br><br>The AMA will take place on Thursday, January 28, 2021 from 10:00 a.m. to 11:00 a.m. PT in the Azure AMA space. <br><br>An AMA is a live online event similar to a “YamJam” on Yammer or an “Ask Me Anything” on Reddit. This AMA gives you the opportunity to connect with Microsoft product experts who will be on hand to answer your questions and listen to feedback.
+LOCATION:Microsoft Tech Community\, Azure AMA space: https://aka.ms/AMA/Azure
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
